@@ -1,12 +1,13 @@
-import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { Component } from '@angular/core';
+import { HeaderComponent } from './header/header.component';  // ✅ Đường dẫn chuẩn theo cấu trúc bạn gửi
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  standalone: true,
   templateUrl: './app.html',
-  styleUrl: './app.css'
+  styleUrls: ['./app.css'],
+  imports: [HeaderComponent]    //  Import component 
 })
-export class App {
-  protected readonly title = signal('hello-angular');
+export class AppComponent {
+  title = 'hello-angular';
 }
