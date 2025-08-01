@@ -24,7 +24,7 @@ Dự án này được xây dựng nhằm mục tiêu:
 | ✅ Component | Đã học | Tách biệt logic và giao diện |
 | ✅ Data Binding | Đang học | `{{ }}`, `[]`, `()`, `[( )]` |
 | ✅ Directive | Đang học | *ngIf, *ngFor, custom directive |
-| ✅ Service & DI | Đang học | Inject service vào component |
+| ✅ Service & DI | Đã học | Inject service vào component |
 | ✅ Routing | Đang học | Điều hướng giữa các page |
 | ✅ Reactive Forms | Đang học | Xây dựng form mạnh mẽ |
 | 🔄 HTTP Client | Đang học | Giao tiếp với backend |
