@@ -1,0 +1,28 @@
+<form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+
+  <label>Username</label>
+  <input formControlName="username" />
+  <div *ngIf="registerForm.get('username')?.touched && registerForm.get('username')?.invalid">
+    Username phải có ít nhất 4 ký tự.
+  </div>
+
+  <label>Email</label>
+  <input formControlName="email" type="email" />
+  <div *ngIf="registerForm.get('email')?.touched && registerForm.get('email')?.invalid">
+    Email không hợp lệ.
+  </div>
+
+  <label>Password</label>
+  <input formControlName="password" type="password" />
+  <div *ngIf="registerForm.get('password')?.touched && registerForm.get('password')?.invalid">
+    Mật khẩu ít nhất 8 ký tự.
+  </div>
+
+  <label>Confirm Password</label>
+  <input formControlName="confirmPassword" type="password" />
+  <div *ngIf="registerForm.hasError('mismatch') && registerForm.get('confirmPassword')?.touched">
+    Mật khẩu xác nhận không khớp.
+  </div>
+
+  <button [disabled]="registerForm.invalid">Register</button>
+</form>
