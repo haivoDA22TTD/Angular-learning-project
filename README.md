@@ -27,7 +27,7 @@ Dự án này được xây dựng nhằm mục tiêu:
 | ✅ Service & DI | Đã học | Inject service vào component |
 | ✅ Routing | Đang học | Điều hướng giữa các page |
 | ✅ Reactive Forms | Đã học | Xây dựng form mạnh mẽ |
-| 🔄 HTTP Client | Đang học | Giao tiếp với backend |
+| 🔄 HTTP Client | Đã học | Giao tiếp với backend |
 
 
 ---
