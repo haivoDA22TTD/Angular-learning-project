@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ReactiveFormsModule, FormBuilder, FormGroup, Validators } from '@angular/forms';
-import { UserService } from '../services/user'; // Đường dẫn đúng theo file user.service.ts
+import { UserService } from '../services/user'; 
 import { HttpClientModule } from '@angular/common/http';
 
 @Component({
@@ -44,12 +44,12 @@ export class RegisterComponent {
 
       this.userService.register(userData).subscribe({
         next: () => {
-          this.message = '🎉 Đăng ký thành công!';
+          this.message = 'Đăng ký thành công!';
           this.isError = false;
           this.registerForm.reset();
         },
         error: (err) => {
-          this.message = '❌ Đăng ký thất bại!';
+          this.message = 'Đăng ký thất bại!';
           this.isError = true;
           console.error(err);
         }
