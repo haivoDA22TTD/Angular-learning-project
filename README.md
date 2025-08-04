@@ -22,12 +22,13 @@ Dự án này được xây dựng nhằm mục tiêu:
 |--------|------------|-------|
 | ✅ Angular CLI | Đã học | Tạo và quản lý project Angular |
 | ✅ Component | Đã học | Tách biệt logic và giao diện |
-| ✅ Data Binding | Đang học | `{{ }}`, `[]`, `()`, `[( )]` |
+| ✅ Data Binding | Đã học | `{{ }}`, `[]`, `()`, `[( )]` |
 | ✅ Directive | Đang học | *ngIf, *ngFor, custom directive |
 | ✅ Service & DI | Đã học | Inject service vào component |
 | ✅ Routing | Đang học | Điều hướng giữa các page |
 | ✅ Reactive Forms | Đã học | Xây dựng form mạnh mẽ |
 | 🔄 HTTP Client | Đã học | Giao tiếp với backend |
+| ✅ Lazy loading | Đang học | Giúp cải thiện hiệu suất bằng cách trì hoãn việc tải một số tài nguyên nhất định cho đến khi chúng thực sự cần thiết |
 
 
 ---
