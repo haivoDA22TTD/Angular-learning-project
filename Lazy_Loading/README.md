@@ -1,59 +1,31 @@
-# Lazy
+# 🔰 Angular Lazy Loading Project
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.1.4.
+Đây là một **repo học tập cá nhân** dùng để thực hành **Lazy Loading trong Angular**.  
+Mục tiêu của mình là hiểu rõ cách tách các module và chỉ tải chúng khi cần, giúp tối ưu hiệu năng ứng dụng Angular.
 
-## Development server
+---
 
-To start a local development server, run:
+## 📌 Giới thiệu
 
-```bash
-ng serve
-```
+Lazy Loading là kỹ thuật chia nhỏ ứng dụng thành nhiều module và chỉ tải chúng khi người dùng điều hướng đến.  
+Điều này giúp:
+- Giảm kích thước bundle chính khi load lần đầu
+- Tăng tốc độ khởi chạy ban đầu
+- Cải thiện trải nghiệm người dùng trên app lớn
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+---
 
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## ⚙️ Cài đặt
 
 ```bash
-ng generate --help
+git clone https://github.com/haivoDA22TTD/Angular-learning-project.git
+cd Angular-learning-project/Lazy_Loading
 ```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## Cài đặt thư viện phụ thuộc
+  ```bash
+npm install
+  ```
+## Chạy ứng dụng
+  ```bash
+    ng serve
+  ```
