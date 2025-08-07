@@ -28,7 +28,7 @@ Http_Client/
   ```
 ## Truy cập
     ```bash
-   http://localhost:4200
+     http://localhost:4200
     ```
 ## 📁 Cấu trúc thư mục Backend
   ```bash
@@ -37,13 +37,13 @@ Http_Client/
 │ ├── main/
 │ │ ├── java/com/example/backend/
 │ │ │ ├── controller/
-│ │ │ │ └── PostController.java
+│ │ │ │ └── UserController.java
 │ │ │ ├── model/
-│ │ │ │ └── Post.java
+│ │ │ │ └── User.java
 │ │ │ ├── repository/
-│ │ │ │ └── PostRepository.java
+│ │ │ │ └── UserRepository.java
 │ │ │ ├── service/
-│ │ │ │ └── PostService.java
+│ │ │ │ └── UserService.java
 │ │ │ └── BackendApplication.java
 │ │ └── resources/
 │ │ └── application.properties
@@ -53,7 +53,7 @@ Http_Client/
 ## ⚙️ Cài đặt & chạy
   ### 1. Yêu cầu
 
-- Java 17+
+- Java 21+
 - Maven
 
 ### 2. Chạy bằng Maven Wrapper
