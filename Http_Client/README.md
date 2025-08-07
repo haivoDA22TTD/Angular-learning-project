@@ -27,9 +27,9 @@ Http_Client/
       ng serve
   ```
 ## Truy cập
-    ```bash
+
        http://localhost:4200
-    ```
+       
 ## 📁 Cấu trúc thư mục Backend
   ```bash
       spring-boot-backend/
