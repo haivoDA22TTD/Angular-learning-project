@@ -28,7 +28,7 @@ Dự án này được xây dựng nhằm mục tiêu:
 | ✅ Routing | Đang học | Điều hướng giữa các page |
 | ✅ Reactive Forms | Đã học | Xây dựng form mạnh mẽ |
 | 🔄 HTTP Client | Đã học | Giao tiếp với backend |
-| ✅ Lazy loading | Đang học | Giúp cải thiện hiệu suất bằng cách trì hoãn việc tải một số tài nguyên nhất định cho đến khi chúng thực sự cần thiết |
+| ✅ Lazy loading | Đã học | Giúp cải thiện hiệu suất bằng cách trì hoãn việc tải một số tài nguyên nhất định cho đến khi chúng thực sự cần thiết |
 
 
 ---
