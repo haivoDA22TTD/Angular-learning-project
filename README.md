@@ -23,7 +23,7 @@ Dự án này được xây dựng nhằm mục tiêu:
 | ✅ Angular CLI | Đã học | Tạo và quản lý project Angular |
 | ✅ Component | Đã học | Tách biệt logic và giao diện |
 | ✅ Data Binding | Đã học | `{{ }}`, `[]`, `()`, `[( )]` |
-| ✅ Directive | Đang học | *ngIf, *ngFor, custom directive |
+| ✅ Directive | Đã học | *ngIf, *ngFor, custom directive |
 | ✅ Service & DI | Đã học | Inject service vào component |
 | ✅ Routing | Đang học | Điều hướng giữa các page |
 | ✅ Reactive Forms | Đã học | Xây dựng form mạnh mẽ |
