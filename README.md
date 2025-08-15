@@ -29,6 +29,7 @@ Dự án này được xây dựng nhằm mục tiêu:
 | ✅ Reactive Forms | Đã học | Xây dựng form mạnh mẽ |
 | 🔄 HTTP Client | Đã học | Giao tiếp với backend |
 | ✅ Lazy loading | Đã học | Giúp cải thiện hiệu suất bằng cách trì hoãn việc tải một số tài nguyên nhất định cho đến khi chúng thực sự cần thiết |
+| ✅ SCSS | Đang học | giúp viết CSS một cách có cấu trúc, dễ bảo trì và mở rộng hơn |
 
 
 ---
