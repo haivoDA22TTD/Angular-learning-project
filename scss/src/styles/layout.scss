@@ -1,0 +1,22 @@
+@use './variables' as *;
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 $spacer;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -$spacer / 2;
+  margin-right: -$spacer / 2;
+}
+
+.col {
+  flex: 1;
+  padding-left: $spacer / 2;
+  padding-right: $spacer / 2;
+}

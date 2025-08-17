@@ -1,0 +1,25 @@
+@use '../../styles/variables' as *;
+
+@use '../../styles/mixins' as *;
+
+.demo {
+  background-color: $light-color;
+  padding: $spacer;
+  border: 1px solid $primary-color;
+
+  .title {
+    font-size: 2rem;
+    color: $primary-color;
+  }
+
+  .button-group {
+    @include flex-center;
+    gap: 1rem;
+  }
+
+  @include respond-to(md) {
+    .title {
+      font-size: 1.5rem;
+    }
+  }
+}
