@@ -3,7 +3,9 @@
 Đây là một dự án học tập nhằm mục tiêu tìm hiểu và thực hành phát triển ứng dụng frontend sử dụng **Angular framework** kết hợp với **SCSS** để quản lý style một cách hiệu quả, tách biệt và dễ bảo trì.
 
 ---
-        <img width="376" height="451" alt="image" src="https://github.com/user-attachments/assets/52320d4c-0858-4160-b224-db23fbab2a6d" />
+## Logo
+  <img width="376" height="451" alt="image" src="https://github.com/user-attachments/assets/29d369e8-850a-4c15-91d1-24b957dc37ad" />
+
 
 
 ## 🚀 Công Nghệ Sử Dụng
